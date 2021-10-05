@@ -74,14 +74,52 @@ exporting will produce different results based on the options chosen.
 import and export, as they may have unintended side effects on a system if
 the incorrect options are chosen.
 
+--------------------------------------------
+
 #### **Exporting a Virtual Appliance**
 
-<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/assets/exportingVM_Step1.png" width="500" />
+From the VirtualBox hypervisor, right-click on the virtual machine to clone
+and select `"Export to OCI..."`
+
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/exportingVM_step1.png" height="300" />
+
+[Fig. 1]
+
+Next a diaglog is presented such as the following:
+
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/exportingVM_step2.png" width="700" />
+
+[Fig. 2]
+
+From this dialog the export process asks for the format of the virtual
+appliance to export, the destination for the exported virtual appliance
+on the filesystem, the MAC address policy, and toggle options as to
+whether or not to include the manifest file for the virtual appliance or
+its associated ISO image files.
+
+For the MAC Address Policy selection, the three options are as follows:
+
+* Strip all network adapter MAC addresses
+* Include only NAT network adapter MAC addresses
+* Include all network adapter MAC addresses
+
+(See Fig. 3)
+
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/exportingVM_MACAddressPolicy.png" width="700" />
+
+[Fig. 3]
+
+There are reasons to select any of the previous options, the one selected
+depends on the purpose of the exported virtual appliance and how it is to
+be used in its future environment(s).
+
+--------------------------------------------
 
 #### **Importing a Virtual Appliance**
+
+
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/importingVM_step1.png" width="700" />
 
 --------------------------------------------
 
 ### **Additional Configuration**
-
-<!-- discuss add'l config options for further customization -->
