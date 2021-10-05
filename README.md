@@ -130,8 +130,10 @@ configuration settings. (See Fig. 5)
 
 <img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/importingVM_step2.png" width="600" />
 
-[Fig. 4]
+Most of the appliance settings are outside of the scope of this lesson, but
+some settings to note are the CPU, RAM, and Virtual Disk Image settings.
+Additionally, it is possible to keep all existing network adapter MAC
+addresses upon import, include only NAT network adapter MAC addresses, or
+generate entirely new MAC addresses.
 
---------------------------------------------
-
-### **Additional Configuration**
+[Fig. 5]
