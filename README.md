@@ -79,13 +79,13 @@ the incorrect options are chosen.
 #### **Exporting a Virtual Appliance**
 
 From the VirtualBox hypervisor, right-click on the virtual machine to clone
-and select `"Export to OCI..."`
+and select `"Export to OCI..."` (See Fig. 1)
 
 <img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/exportingVM_step1.png" height="300" />
 
 [Fig. 1]
 
-Next a diaglog is presented such as the following:
+Next a diaglog is presented such as the following (See Fig. 2):
 
 <img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/exportingVM_step2.png" width="700" />
 
@@ -117,8 +117,20 @@ be used in its future environment(s).
 
 #### **Importing a Virtual Appliance**
 
+To import a virtual machine into the VirtualBox hypervisor, the import
+wizard first asks for the location of the OVF or OVA file representing the
+VM slated for import. (See Fig. 4)
 
-<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/importingVM_step1.png" width="700" />
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/importingVM_step1.png" width="600" />
+
+[Fig. 4]
+
+Next the wizard allows for multiple ways to customize and specify VM
+configuration settings. (See Fig. 5)
+
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-creating-custom-virtual-machine-images/master/assets/importingVM_step2.png" width="600" />
+
+[Fig. 4]
 
 --------------------------------------------
 
